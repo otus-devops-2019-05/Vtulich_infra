@@ -1,21 +1,23 @@
-Выполнено ДЗ №2
+Выполнено ДЗ №3
 
     Основное ДЗ
 
 В процессе сделано:
 
-    Добавлен PULL_REQUEST_TEMPLATE.md
-    Создан тестовый канал Slack и интегрирован с GitHub
-    Проведена интеграция Slack c TravisCI
+    Созданы две виртуальные машины
+    Настроен SSH Forwarding
+    Создан и настроен VPN
+    Исследовать способ подключения к someinternalhost в одну команду - ssh -A vtulich@34.77.211.242 ssh vtulich@10.132.0.3
 
 Как запустить проект:
 
-    Пройдя по ссылке - https://travis-ci.com/otus-devops-2019-05/Vtulich_infra и запустив "Restart Build"
+    bastion_IP = 34.77.211.242
+    someinternalhost_IP = 10.132.0.3
 
 Как проверить работоспособность:
 
-    На данный момент проверку можно осуществить по ссылке https://travis-ci.com/otus-devops-2019-05/Vtulich_infra
+    По ссылке https://travis-ci.com/otus-devops-2019-05/Vtulich_infra
 
 PR checklist
 
-    Выставил label с темой домашнего задания - play-travis
+    Выставил label с темой домашнего задания - cloud-bastion
