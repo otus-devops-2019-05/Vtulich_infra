@@ -1,0 +1,8 @@
+{
+  "project_id": "infra-*****",
+  "source_image_family": "ubuntu-1604-lts",
+  "image_description": "Ubuntu 16.04",
+  "machine_type_var": "f1-micro",
+  "tags": "puma-server",
+  "disk_size": "10",
+}
