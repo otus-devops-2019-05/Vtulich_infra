@@ -8,7 +8,7 @@
             "source_image_family": "ubuntu-1604-lts",
             "image_description": "{{user `image_description`}}",
             "disk_type": "pd-ssd",
-            "disk_size": "{{user `disk_size`}}",
+            "disk_size": "10",
             "tags": "{{user `tags`}}",
             "zone": "europe-west1-b",
             "ssh_username": "vtulich",
