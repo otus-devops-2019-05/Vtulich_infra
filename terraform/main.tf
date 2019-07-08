@@ -27,7 +27,7 @@ resource "google_compute_instance" "app" {
     agent = false
 
     #путь до приватного ключа
-    private_key = "${file(var.privat_key_path)}"
+    private_key = "${file(var.private_key_path)}"
   }
 
   provisioner "file" {
