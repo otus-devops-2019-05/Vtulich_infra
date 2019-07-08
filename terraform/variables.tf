@@ -21,7 +21,7 @@ variable public_key_path {
 
 variable privat_key_path {
   #Описание переменной
-  description = "Path to the public key used for ssh acces"
+  description = "Path to the private key used for connect"
 }
 
 variable disk_image {
