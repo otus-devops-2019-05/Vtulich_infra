@@ -19,7 +19,7 @@ resource "google_compute_instance" "app" {
   }
 
   metadata {
-    ssh-keys = "appuser:${file(var.public_key_path)}"
+    ssh-keys = "vtulich:${file(var.public_key_path)}"
   }
 }
 
@@ -34,7 +34,7 @@ resource "google_compute_firewall" "firewall_puma" {
   allow {
     protocol = "tcp"
 
-    ports = ["9292"]
+    ports = ["9292","80"]
   }
 
   source_ranges = ["0.0.0.0/0"]
